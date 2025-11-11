@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="bg-dark bg-gradient main text-center">
+        <h1 class="py-4">Quote Of The Day</h1>
+        <p class="pt-3 fs-5">Press The Button Below To Receive A Random Quote</p>
+        <button onclick="generate()" class="btn btn-danger p-2">New Quote</button>
+        <div class="pt-4 font">
+            <p id="quote"></p>
+            <p id="author" class="text-muted"></p>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Main;
+  src: url(../fonts/Exo-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Quote;
+  src: url(../fonts/Lobster-Regular.ttf);
+}
+
+.main {
+  font-family: Main;
+  height: 100vh;
+}
+
+.main h1 {
+  font-size: 75px;
+  font-weight: 700;
+  color: #f87b1b;
+}
+
+.main p {
+  color: #eeeeee;
+  font-weight: 500;
+}
+
+.font {
+  font-family: Quote;
+  font-size: 30px;
+}
+
+#quote,
+#author {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade {
+  opacity: 0;
+}
